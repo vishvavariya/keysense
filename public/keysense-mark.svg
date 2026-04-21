@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">KeySense logo mark</title>
+  <desc id="desc">A dark rounded-square keyboard mark with violet and cyan sound accents.</desc>
+  <defs>
+    <linearGradient id="bg" x1="68" y1="42" x2="444" y2="470" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1f2433"/>
+      <stop offset="0.45" stop-color="#111827"/>
+      <stop offset="1" stop-color="#05070d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="115" y1="120" x2="398" y2="385" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#a78bfa"/>
+      <stop offset="0.52" stop-color="#6366f1"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <linearGradient id="rim" x1="70" y1="48" x2="442" y2="468" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c4b5fd" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#22d3ee" stop-opacity="0.45"/>
+    </linearGradient>
+    <filter id="shadow" x="54" y="116" width="404" height="304" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="24" flood-color="#000000" flood-opacity="0.35" stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect x="28" y="28" width="456" height="456" rx="112" fill="url(#bg)"/>
+  <rect x="35" y="35" width="442" height="442" rx="105" fill="none" stroke="url(#rim)" stroke-opacity="0.78" stroke-width="10"/>
+  <path d="M116 405c62 38 192 48 277-11" stroke="#ffffff" stroke-opacity="0.07" stroke-width="20" stroke-linecap="round"/>
+
+  <g filter="url(#shadow)" transform="rotate(-6 256 256)">
+    <rect x="94" y="168" width="324" height="214" rx="50" fill="#0b1020" stroke="#ffffff" stroke-opacity="0.16" stroke-width="8"/>
+    <rect x="128" y="205" width="58" height="44" rx="13" fill="url(#accent)"/>
+    <rect x="207" y="205" width="58" height="44" rx="13" fill="#ffffff" fill-opacity="0.62"/>
+    <rect x="287" y="205" width="92" height="44" rx="13" fill="#ffffff" fill-opacity="0.34"/>
+    <rect x="128" y="273" width="70" height="44" rx="13" fill="#ffffff" fill-opacity="0.42"/>
+    <rect x="220" y="273" width="58" height="44" rx="13" fill="#ffffff" fill-opacity="0.74"/>
+    <rect x="301" y="273" width="78" height="44" rx="13" fill="#22d3ee" fill-opacity="0.72"/>
+    <rect x="174" y="337" width="164" height="34" rx="17" fill="#ffffff" fill-opacity="0.5"/>
+  </g>
+
+  <path d="M366 126c28 13 49 35 60 65M337 168c16 7 29 20 36 36" fill="none" stroke="#22d3ee" stroke-linecap="round" stroke-width="22"/>
+  <circle cx="143" cy="374" r="22" fill="#a78bfa" opacity="0.9"/>
+</svg>
