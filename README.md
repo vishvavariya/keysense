@@ -4,9 +4,19 @@
   <img src="./public/keysense-mark.svg" alt="KeySense logo" width="96" height="96" />
 </p>
 
+<p align="center">
+  <a href="https://key-sense.netlify.app/"><img alt="Live site" src="https://img.shields.io/badge/live-Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /></a>
+  <a href="https://github.com/vishvavariya/keysense/actions/workflows/ci.yml"><img alt="CI" src="https://img.shields.io/github/actions/workflow/status/vishvavariya/keysense/ci.yml?branch=main&style=for-the-badge&label=ci" /></a>
+  <a href="./LICENSE"><img alt="License: MIT" src="https://img.shields.io/badge/license-MIT-green?style=for-the-badge" /></a>
+  <img alt="Next.js" src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs" />
+  <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+</p>
+
 KeySense is an interactive keyboard gallery for exploring how popular keyboards look, feel, compare, and sound. You can browse curated boards, press keys on model-specific layouts, compare two keyboards side by side, and run a typing test with switch-style sound feedback.
 
 Live site: [https://key-sense.netlify.app/](https://key-sense.netlify.app/)
+
+GitHub: [https://github.com/vishvavariya/keysense](https://github.com/vishvavariya/keysense)
 
 ## Features
 
@@ -52,6 +62,13 @@ npm run build   # Create a production build
 npm run start   # Run the production build
 npm run lint    # Run ESLint
 ```
+
+## Repository Health
+
+- MIT licensed.
+- GitHub Actions runs lint and production build checks on pushes and pull requests.
+- No environment variables are required for local development or deployment.
+- Security reporting and contribution guidelines are documented in `SECURITY.md` and `CONTRIBUTING.md`.
 
 ## App Routes
 
@@ -109,4 +126,4 @@ Regenerate icon PNG/ICO files from `public/keysense-mark.svg` after changing the
 
 ## Deployment
 
-Build with `npm run build`, then deploy to any platform that supports Next.js. Vercel is the easiest default option for an App Router project.
+Build with `npm run build`, then deploy to any platform that supports Next.js. The live deployment currently runs on Netlify.

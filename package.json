@@ -2,6 +2,15 @@
   "name": "keysense",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "homepage": "https://key-sense.netlify.app/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vishvavariya/keysense.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vishvavariya/keysense/issues"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
