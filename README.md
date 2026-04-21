@@ -6,6 +6,8 @@
 
 KeySense is an interactive keyboard gallery for exploring how popular keyboards look, feel, compare, and sound. You can browse curated boards, press keys on model-specific layouts, compare two keyboards side by side, and run a typing test with switch-style sound feedback.
 
+Live site: [https://key-sense.netlify.app/](https://key-sense.netlify.app/)
+
 ## Features
 
 - Interactive keyboard stage with physical key presses and clickable keys.
