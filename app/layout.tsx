@@ -21,6 +21,9 @@ export const metadata: Metadata = {
     "keychron",
     "logitech",
   ],
+  other: {
+    codescissor: "cs_keysensenetlifya_6a5c229b3f842286e5e989e047f150a7",
+  },
 };
 
 export default function RootLayout({
