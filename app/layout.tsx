@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "logitech",
   ],
   other: {
-    codescissor: "cs_keysensenetlifya_6a5c229b3f842286e5e989e047f150a7",
+    codescissor: "cs_keysensenetlifya_a23080ac9bb99e7bc7aa96a39721ae72",
   },
 };
 
